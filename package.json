@@ -1,0 +1,20 @@
+{
+  "name": "proj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "style": "sass style.scss style.min.css --no-source-map"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@uploadcare/upload-client": "^6.6.1",
+    "leaflet": "^1.9.4"
+  },
+  "devDependencies": {
+    "sass": "^1.62.1"
+  }
+}

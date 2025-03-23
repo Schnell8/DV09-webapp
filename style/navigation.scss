@@ -1,0 +1,26 @@
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    background-color: #a9a9a9;
+}
+
+.bottom-nav a {
+    color: $white;
+}
+
+.bottom-nav a:hover {
+    color: #708090;
+}
+
+@media (max-width: 667px) {
+    .bottom-nav {
+        text-align: right;
+        flex-flow: column;
+        padding-right: 1em;
+    }
+}
